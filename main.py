@@ -7,7 +7,7 @@ st.title("ヤフーオーサー分析")
 
 st.write("全オーサー：577名　データ更新：2021/4/25　※カテゴリーが複数にまたがるオーサーは独自に分類しています")
 
-df = pd.read_csv("20210424_yahoo_outher2_重複整理済.csv", encoding='cp932')
+df = pd.read_csv("20210518_yahoo_outher2_重複整理済.csv", encoding='cp932')
 
 st.write(df)
 
